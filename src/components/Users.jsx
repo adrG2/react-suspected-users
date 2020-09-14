@@ -10,7 +10,7 @@ export default function Users(props) {
         <Col>
           <User
               name={user.name} 
-              providence={user.providence}
+              confidence={user.confidence}
               image={user.image}
           />
         </Col>
